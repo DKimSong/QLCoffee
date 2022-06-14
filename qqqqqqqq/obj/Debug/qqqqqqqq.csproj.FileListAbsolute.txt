@@ -1,0 +1,90 @@
+E:\qqqqqqqq\qqqqqqqq\bin\Debug\qqqqqqqq.exe.config
+E:\qqqqqqqq\qqqqqqqq\bin\Debug\qqqqqqqq.exe
+E:\qqqqqqqq\qqqqqqqq\bin\Debug\qqqqqqqq.pdb
+E:\qqqqqqqq\qqqqqqqq\bin\Debug\Bunifu_UI_v1.5.3.dll
+E:\qqqqqqqq\qqqqqqqq\obj\Debug\qqqqqqqq.Form1.resources
+E:\qqqqqqqq\qqqqqqqq\obj\Debug\qqqqqqqq.Properties.Resources.resources
+E:\qqqqqqqq\qqqqqqqq\obj\Debug\qqqqqqqq.csproj.GenerateResource.Cache
+E:\qqqqqqqq\qqqqqqqq\obj\Debug\qqqqqqqq.exe
+E:\qqqqqqqq\qqqqqqqq\obj\Debug\qqqqqqqq.pdb
+E:\qqqqqqqq\qqqqqqqq\obj\Debug\qqqqqqqq.FormMain.resources
+E:\qqqqqqqq\qqqqqqqq\obj\Debug\qqqqqqqq.page_thucdon.resources
+E:\qqqqqqqq\qqqqqqqq\obj\Debug\qqqqqqqq.page_Thongke.resources
+E:\qqqqqqqq\qqqqqqqq\obj\Debug\qqqqqqqq.exe.licenses
+E:\qqqqqqqq\qqqqqqqq\obj\Debug\qqqqqqqq.csprojResolveAssemblyReference.cache
+E:\qqqqqqqq\qqqqqqqq\obj\Debug\qqqqqqqq.page_Trangchu.resources
+E:\qqqqqqqq\qqqqqqqq\obj\Debug\qqqqqqqq.mesage.resources
+E:\qqqqqqqq\qqqqqqqq\bin\Debug\MetroFramework.Design.dll
+E:\qqqqqqqq\qqqqqqqq\bin\Debug\MetroFramework.dll
+E:\qqqqqqqq\qqqqqqqq\bin\Debug\MetroFramework.Fonts.dll
+C:\Users\Administrator\Desktop\qqqqqqqq\qqqqqqqq\bin\Debug\qqqqqqqq.exe.config
+C:\Users\Administrator\Desktop\qqqqqqqq\qqqqqqqq\obj\Debug\qqqqqqqq.exe
+C:\Users\Administrator\Desktop\qqqqqqqq\qqqqqqqq\obj\Debug\qqqqqqqq.pdb
+C:\Users\Administrator\Desktop\qqqqqqqq\qqqqqqqq\bin\Debug\qqqqqqqq.exe
+C:\Users\Administrator\Desktop\qqqqqqqq\qqqqqqqq\bin\Debug\qqqqqqqq.pdb
+C:\Users\Administrator\Desktop\qqqqqqqq\qqqqqqqq\bin\Debug\Bunifu_UI_v1.5.3.dll
+C:\Users\Administrator\Desktop\qqqqqqqq\qqqqqqqq\bin\Debug\MetroFramework.Design.dll
+C:\Users\Administrator\Desktop\qqqqqqqq\qqqqqqqq\bin\Debug\MetroFramework.dll
+C:\Users\Administrator\Desktop\qqqqqqqq\qqqqqqqq\bin\Debug\MetroFramework.Fonts.dll
+C:\Users\Administrator\Desktop\qqqqqqqq\qqqqqqqq\obj\Debug\qqqqqqqq.Form1.resources
+C:\Users\Administrator\Desktop\qqqqqqqq\qqqqqqqq\obj\Debug\qqqqqqqq.FormMain.resources
+C:\Users\Administrator\Desktop\qqqqqqqq\qqqqqqqq\obj\Debug\qqqqqqqq.mesage.resources
+C:\Users\Administrator\Desktop\qqqqqqqq\qqqqqqqq\obj\Debug\qqqqqqqq.page_Trangchu.resources
+C:\Users\Administrator\Desktop\qqqqqqqq\qqqqqqqq\obj\Debug\qqqqqqqq.page_Thongke.resources
+C:\Users\Administrator\Desktop\qqqqqqqq\qqqqqqqq\obj\Debug\qqqqqqqq.page_thucdon.resources
+C:\Users\Administrator\Desktop\qqqqqqqq\qqqqqqqq\obj\Debug\qqqqqqqq.Properties.Resources.resources
+C:\Users\Administrator\Desktop\qqqqqqqq\qqqqqqqq\obj\Debug\qqqqqqqq.csproj.GenerateResource.Cache
+C:\Users\Administrator\Desktop\qqqqqqqq\qqqqqqqq\obj\Debug\qqqqqqqq.exe.licenses
+C:\Users\Administrator\Desktop\qqqqqqqq\qqqqqqqq\obj\Debug\qqqqqqqq.report.resources
+C:\Users\Administrator\Desktop\qqqqqqqq\qqqqqqqq\obj\Debug\qqqqqqqq.themthucdon.resources
+C:\Users\Administrator\Desktop\qqqqqqqq\qqqqqqqq\obj\Debug\qqqqqqqq.pagenhanVien.resources
+C:\Users\Administrator\Desktop\qqqqqqqq\qqqqqqqq\obj\Debug\qqqqqqqq.themnhanvien.resources
+C:\Users\Administrator\Desktop\qqqqqqqq\qqqqqqqq\obj\Debug\qqqqqqqq.suanhanvien.resources
+C:\Users\Administrator\Desktop\qqqqqqqq\qqqqqqqq\obj\Debug\qqqqqqqq.ctnhanvien.resources
+C:\Users\Administrator\Desktop\qqqqqqqq\qqqqqqqq\obj\Debug\qqqqqqqq.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\qqqqqqqq\qqqqqqqq\obj\Debug\qqqqqqqq.page_hethong.resources
+C:\Users\Administrator\Desktop\qqqqqqqq\qqqqqqqq\obj\Debug\qqqqqqqq.suaban.resources
+C:\Users\Administrator\Desktop\qqqqqqqq\qqqqqqqq\obj\Debug\qqqqqqqq.themban.resources
+C:\Users\Administrator\Desktop\qqqqqqqq\qqqqqqqq\obj\Debug\qqqqqqqq.suahoadon.resources
+C:\Users\Administrator\Desktop\qqqqqqqq\qqqqqqqq\obj\Debug\qqqqqqqq.page_phache.resources
+C:\Users\Administrator\Desktop\qqqqqqqq\qqqqqqqq\obj\Debug\qqqqqqqq.themloaiTD.resources
+C:\Users\Administrator\Desktop\qqqqqqqq\qqqqqqqq\obj\Debug\qqqqqqqq.dangkica.resources
+C:\Users\Administrator\Desktop\qqqqqqqq\qqqqqqqq\obj\Debug\qqqqqqqq.xemcong.resources
+C:\Users\Administrator\Desktop\qqqqqqqq\qqqqqqqq\bin\Debug\MTGCCombobox.dll
+C:\Users\Administrator\Desktop\qqqqqqqq\qqqqqqqq\obj\Debug\qqqqqqqq.doipass.resources
+C:\Users\Administrator\Desktop\qqqqqqqq\qqqqqqqq\obj\Debug\RdlCompile.cache
+C:\Users\Administrator\Desktop\qqqqqqqq\qqqqqqqq\obj\Debug\RdlCompile.compiled
+F:\ZALO\(Copy of) CAFE-Master\CAFE-Master\qqqqqqqq\bin\Debug\qqqqqqqq.exe.config
+F:\ZALO\(Copy of) CAFE-Master\CAFE-Master\qqqqqqqq\obj\Debug\qqqqqqqq.exe
+F:\ZALO\(Copy of) CAFE-Master\CAFE-Master\qqqqqqqq\obj\Debug\qqqqqqqq.pdb
+F:\ZALO\(Copy of) CAFE-Master\CAFE-Master\qqqqqqqq\obj\Debug\qqqqqqqq.ctnhanvien.resources
+F:\ZALO\(Copy of) CAFE-Master\CAFE-Master\qqqqqqqq\obj\Debug\qqqqqqqq.dangkica.resources
+F:\ZALO\(Copy of) CAFE-Master\CAFE-Master\qqqqqqqq\obj\Debug\qqqqqqqq.doipass.resources
+F:\ZALO\(Copy of) CAFE-Master\CAFE-Master\qqqqqqqq\obj\Debug\qqqqqqqq.Form1.resources
+F:\ZALO\(Copy of) CAFE-Master\CAFE-Master\qqqqqqqq\obj\Debug\qqqqqqqq.FormMain.resources
+F:\ZALO\(Copy of) CAFE-Master\CAFE-Master\qqqqqqqq\obj\Debug\qqqqqqqq.mesage.resources
+F:\ZALO\(Copy of) CAFE-Master\CAFE-Master\qqqqqqqq\obj\Debug\qqqqqqqq.report.resources
+F:\ZALO\(Copy of) CAFE-Master\CAFE-Master\qqqqqqqq\obj\Debug\qqqqqqqq.xemcong.resources
+F:\ZALO\(Copy of) CAFE-Master\CAFE-Master\qqqqqqqq\obj\Debug\qqqqqqqq.pagenhanVien.resources
+F:\ZALO\(Copy of) CAFE-Master\CAFE-Master\qqqqqqqq\obj\Debug\qqqqqqqq.page_hethong.resources
+F:\ZALO\(Copy of) CAFE-Master\CAFE-Master\qqqqqqqq\obj\Debug\qqqqqqqq.page_phache.resources
+F:\ZALO\(Copy of) CAFE-Master\CAFE-Master\qqqqqqqq\obj\Debug\qqqqqqqq.page_Trangchu.resources
+F:\ZALO\(Copy of) CAFE-Master\CAFE-Master\qqqqqqqq\obj\Debug\qqqqqqqq.page_Thongke.resources
+F:\ZALO\(Copy of) CAFE-Master\CAFE-Master\qqqqqqqq\obj\Debug\qqqqqqqq.page_thucdon.resources
+F:\ZALO\(Copy of) CAFE-Master\CAFE-Master\qqqqqqqq\obj\Debug\qqqqqqqq.Properties.Resources.resources
+F:\ZALO\(Copy of) CAFE-Master\CAFE-Master\qqqqqqqq\obj\Debug\qqqqqqqq.suaban.resources
+F:\ZALO\(Copy of) CAFE-Master\CAFE-Master\qqqqqqqq\obj\Debug\qqqqqqqq.suahoadon.resources
+F:\ZALO\(Copy of) CAFE-Master\CAFE-Master\qqqqqqqq\obj\Debug\qqqqqqqq.suanhanvien.resources
+F:\ZALO\(Copy of) CAFE-Master\CAFE-Master\qqqqqqqq\obj\Debug\qqqqqqqq.themban.resources
+F:\ZALO\(Copy of) CAFE-Master\CAFE-Master\qqqqqqqq\obj\Debug\qqqqqqqq.themloaiTD.resources
+F:\ZALO\(Copy of) CAFE-Master\CAFE-Master\qqqqqqqq\obj\Debug\qqqqqqqq.themnhanvien.resources
+F:\ZALO\(Copy of) CAFE-Master\CAFE-Master\qqqqqqqq\obj\Debug\qqqqqqqq.themthucdon.resources
+F:\ZALO\(Copy of) CAFE-Master\CAFE-Master\qqqqqqqq\obj\Debug\qqqqqqqq.csproj.GenerateResource.Cache
+F:\ZALO\(Copy of) CAFE-Master\CAFE-Master\qqqqqqqq\obj\Debug\qqqqqqqq.exe.licenses
+F:\ZALO\(Copy of) CAFE-Master\CAFE-Master\qqqqqqqq\obj\Debug\RdlCompile.cache
+F:\ZALO\(Copy of) CAFE-Master\CAFE-Master\qqqqqqqq\obj\Debug\RdlCompile.compiled
+F:\ZALO\(Copy of) CAFE-Master\CAFE-Master\qqqqqqqq\bin\Debug\qqqqqqqq.exe
+F:\ZALO\(Copy of) CAFE-Master\CAFE-Master\qqqqqqqq\bin\Debug\qqqqqqqq.pdb
+F:\ZALO\(Copy of) CAFE-Master\CAFE-Master\qqqqqqqq\bin\Debug\MetroFramework.Design.dll
+F:\ZALO\(Copy of) CAFE-Master\CAFE-Master\qqqqqqqq\bin\Debug\MetroFramework.dll
+F:\ZALO\(Copy of) CAFE-Master\CAFE-Master\qqqqqqqq\bin\Debug\MetroFramework.Fonts.dll

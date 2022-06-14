@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DataSet1" targetNamespace="http://tempuri.org/DataSet1.xsd" xmlns:mstns="http://tempuri.org/DataSet1.xsd" xmlns="http://tempuri.org/DataSet1.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="CAFE_netConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="CAFE_netConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.qqqqqqqq.Properties.Settings.GlobalReference.Default.CAFE_netConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="vi_hoadonTableAdapter" GeneratorDataComponentClassName="vi_hoadonTableAdapter" Name="vi_hoadon" UserDataComponentName="vi_hoadonTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="CAFE_netConnectionString (Settings)" DbObjectName="[CAFE.net].dbo.vi_hoadon" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT MAHD, TGVAO, TGRA, MABAN, TENTD, SOLUONG, GIA, thanhtien FROM dbo.vi_hoadon</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="MAHD" DataSetColumn="MAHD" />
+              <Mapping SourceColumn="TGVAO" DataSetColumn="TGVAO" />
+              <Mapping SourceColumn="TGRA" DataSetColumn="TGRA" />
+              <Mapping SourceColumn="MABAN" DataSetColumn="MABAN" />
+              <Mapping SourceColumn="TENTD" DataSetColumn="TENTD" />
+              <Mapping SourceColumn="SOLUONG" DataSetColumn="SOLUONG" />
+              <Mapping SourceColumn="GIA" DataSetColumn="GIA" />
+              <Mapping SourceColumn="thanhtien" DataSetColumn="thanhtien" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DataSet1" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="DataSet1" msprop:Generator_UserDSName="DataSet1">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="vi_hoadon" msprop:Generator_TableClassName="vi_hoadonDataTable" msprop:Generator_TableVarName="tablevi_hoadon" msprop:Generator_TablePropName="vi_hoadon" msprop:Generator_RowDeletingName="vi_hoadonRowDeleting" msprop:Generator_RowChangingName="vi_hoadonRowChanging" msprop:Generator_RowEvHandlerName="vi_hoadonRowChangeEventHandler" msprop:Generator_RowDeletedName="vi_hoadonRowDeleted" msprop:Generator_UserTableName="vi_hoadon" msprop:Generator_RowChangedName="vi_hoadonRowChanged" msprop:Generator_RowEvArgName="vi_hoadonRowChangeEvent" msprop:Generator_RowClassName="vi_hoadonRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="MAHD" msprop:Generator_ColumnVarNameInTable="columnMAHD" msprop:Generator_ColumnPropNameInRow="MAHD" msprop:Generator_ColumnPropNameInTable="MAHDColumn" msprop:Generator_UserColumnName="MAHD" type="xs:int" minOccurs="0" />
+              <xs:element name="TGVAO" msprop:Generator_ColumnVarNameInTable="columnTGVAO" msprop:Generator_ColumnPropNameInRow="TGVAO" msprop:Generator_ColumnPropNameInTable="TGVAOColumn" msprop:Generator_UserColumnName="TGVAO" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="TGRA" msprop:Generator_ColumnVarNameInTable="columnTGRA" msprop:Generator_ColumnPropNameInRow="TGRA" msprop:Generator_ColumnPropNameInTable="TGRAColumn" msprop:Generator_UserColumnName="TGRA" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="MABAN" msprop:Generator_ColumnVarNameInTable="columnMABAN" msprop:Generator_ColumnPropNameInRow="MABAN" msprop:Generator_ColumnPropNameInTable="MABANColumn" msprop:Generator_UserColumnName="MABAN" type="xs:int" minOccurs="0" />
+              <xs:element name="TENTD" msprop:Generator_ColumnVarNameInTable="columnTENTD" msprop:Generator_ColumnPropNameInRow="TENTD" msprop:Generator_ColumnPropNameInTable="TENTDColumn" msprop:Generator_UserColumnName="TENTD" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="SOLUONG" msprop:Generator_ColumnVarNameInTable="columnSOLUONG" msprop:Generator_ColumnPropNameInRow="SOLUONG" msprop:Generator_ColumnPropNameInTable="SOLUONGColumn" msprop:Generator_UserColumnName="SOLUONG" type="xs:int" minOccurs="0" />
+              <xs:element name="GIA" msprop:Generator_ColumnVarNameInTable="columnGIA" msprop:Generator_ColumnPropNameInRow="GIA" msprop:Generator_ColumnPropNameInTable="GIAColumn" msprop:Generator_UserColumnName="GIA" type="xs:int" minOccurs="0" />
+              <xs:element name="thanhtien" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnthanhtien" msprop:Generator_ColumnPropNameInRow="thanhtien" msprop:Generator_ColumnPropNameInTable="thanhtienColumn" msprop:Generator_UserColumnName="thanhtien" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

@@ -1,0 +1,75 @@
+C:\Users\Administrator\Desktop\qqqqqqqq\qqqqqqqq\bin\Release\qqqqqqqq.exe.config
+C:\Users\Administrator\Desktop\qqqqqqqq\qqqqqqqq\bin\Release\qqqqqqqq.exe
+C:\Users\Administrator\Desktop\qqqqqqqq\qqqqqqqq\bin\Release\qqqqqqqq.pdb
+C:\Users\Administrator\Desktop\qqqqqqqq\qqqqqqqq\bin\Release\Bunifu_UI_v1.5.3.dll
+C:\Users\Administrator\Desktop\qqqqqqqq\qqqqqqqq\bin\Release\MetroFramework.Design.dll
+C:\Users\Administrator\Desktop\qqqqqqqq\qqqqqqqq\bin\Release\MetroFramework.dll
+C:\Users\Administrator\Desktop\qqqqqqqq\qqqqqqqq\bin\Release\MetroFramework.Fonts.dll
+C:\Users\Administrator\Desktop\qqqqqqqq\qqqqqqqq\bin\Release\MTGCCombobox.dll
+C:\Users\Administrator\Desktop\qqqqqqqq\qqqqqqqq\obj\Release\qqqqqqqq.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\qqqqqqqq\qqqqqqqq\obj\Release\qqqqqqqq.ctnhanvien.resources
+C:\Users\Administrator\Desktop\qqqqqqqq\qqqqqqqq\obj\Release\qqqqqqqq.dangkica.resources
+C:\Users\Administrator\Desktop\qqqqqqqq\qqqqqqqq\obj\Release\qqqqqqqq.doipass.resources
+C:\Users\Administrator\Desktop\qqqqqqqq\qqqqqqqq\obj\Release\qqqqqqqq.Form1.resources
+C:\Users\Administrator\Desktop\qqqqqqqq\qqqqqqqq\obj\Release\qqqqqqqq.FormMain.resources
+C:\Users\Administrator\Desktop\qqqqqqqq\qqqqqqqq\obj\Release\qqqqqqqq.mesage.resources
+C:\Users\Administrator\Desktop\qqqqqqqq\qqqqqqqq\obj\Release\qqqqqqqq.report.resources
+C:\Users\Administrator\Desktop\qqqqqqqq\qqqqqqqq\obj\Release\qqqqqqqq.xemcong.resources
+C:\Users\Administrator\Desktop\qqqqqqqq\qqqqqqqq\obj\Release\qqqqqqqq.pagenhanVien.resources
+C:\Users\Administrator\Desktop\qqqqqqqq\qqqqqqqq\obj\Release\qqqqqqqq.page_hethong.resources
+C:\Users\Administrator\Desktop\qqqqqqqq\qqqqqqqq\obj\Release\qqqqqqqq.page_phache.resources
+C:\Users\Administrator\Desktop\qqqqqqqq\qqqqqqqq\obj\Release\qqqqqqqq.page_Trangchu.resources
+C:\Users\Administrator\Desktop\qqqqqqqq\qqqqqqqq\obj\Release\qqqqqqqq.page_Thongke.resources
+C:\Users\Administrator\Desktop\qqqqqqqq\qqqqqqqq\obj\Release\qqqqqqqq.page_thucdon.resources
+C:\Users\Administrator\Desktop\qqqqqqqq\qqqqqqqq\obj\Release\qqqqqqqq.Properties.Resources.resources
+C:\Users\Administrator\Desktop\qqqqqqqq\qqqqqqqq\obj\Release\qqqqqqqq.suaban.resources
+C:\Users\Administrator\Desktop\qqqqqqqq\qqqqqqqq\obj\Release\qqqqqqqq.suahoadon.resources
+C:\Users\Administrator\Desktop\qqqqqqqq\qqqqqqqq\obj\Release\qqqqqqqq.suanhanvien.resources
+C:\Users\Administrator\Desktop\qqqqqqqq\qqqqqqqq\obj\Release\qqqqqqqq.themban.resources
+C:\Users\Administrator\Desktop\qqqqqqqq\qqqqqqqq\obj\Release\qqqqqqqq.themloaiTD.resources
+C:\Users\Administrator\Desktop\qqqqqqqq\qqqqqqqq\obj\Release\qqqqqqqq.themnhanvien.resources
+C:\Users\Administrator\Desktop\qqqqqqqq\qqqqqqqq\obj\Release\qqqqqqqq.themthucdon.resources
+C:\Users\Administrator\Desktop\qqqqqqqq\qqqqqqqq\obj\Release\qqqqqqqq.csproj.GenerateResource.cache
+C:\Users\Administrator\Desktop\qqqqqqqq\qqqqqqqq\obj\Release\qqqqqqqq.exe.licenses
+C:\Users\Administrator\Desktop\qqqqqqqq\qqqqqqqq\obj\Release\qqqqqqqq.exe
+C:\Users\Administrator\Desktop\qqqqqqqq\qqqqqqqq\obj\Release\qqqqqqqq.pdb
+C:\Users\Administrator\Desktop\qqqqqqqq\qqqqqqqq\obj\Release\RdlCompile.cache
+C:\Users\Administrator\Desktop\qqqqqqqq\qqqqqqqq\obj\Release\RdlCompile.compiled
+C:\Users\dovan\OneDrive\Máy tính\CAFE-Master\qqqqqqqq\bin\Release\qqqqqqqq.exe.config
+C:\Users\dovan\OneDrive\Máy tính\CAFE-Master\qqqqqqqq\bin\Release\qqqqqqqq.exe
+C:\Users\dovan\OneDrive\Máy tính\CAFE-Master\qqqqqqqq\bin\Release\qqqqqqqq.pdb
+C:\Users\dovan\OneDrive\Máy tính\CAFE-Master\qqqqqqqq\bin\Release\MetroFramework.Design.dll
+C:\Users\dovan\OneDrive\Máy tính\CAFE-Master\qqqqqqqq\bin\Release\MetroFramework.dll
+C:\Users\dovan\OneDrive\Máy tính\CAFE-Master\qqqqqqqq\bin\Release\MetroFramework.Fonts.dll
+C:\Users\dovan\OneDrive\Máy tính\CAFE-Master\qqqqqqqq\obj\Release\qqqqqqqq.csprojResolveAssemblyReference.cache
+C:\Users\dovan\OneDrive\Máy tính\CAFE-Master\qqqqqqqq\obj\Release\qqqqqqqq.ctnhanvien.resources
+C:\Users\dovan\OneDrive\Máy tính\CAFE-Master\qqqqqqqq\obj\Release\qqqqqqqq.dangkica.resources
+C:\Users\dovan\OneDrive\Máy tính\CAFE-Master\qqqqqqqq\obj\Release\qqqqqqqq.doipass.resources
+C:\Users\dovan\OneDrive\Máy tính\CAFE-Master\qqqqqqqq\obj\Release\qqqqqqqq.Form1.resources
+C:\Users\dovan\OneDrive\Máy tính\CAFE-Master\qqqqqqqq\obj\Release\qqqqqqqq.FormMain.resources
+C:\Users\dovan\OneDrive\Máy tính\CAFE-Master\qqqqqqqq\obj\Release\qqqqqqqq.mesage.resources
+C:\Users\dovan\OneDrive\Máy tính\CAFE-Master\qqqqqqqq\obj\Release\qqqqqqqq.report.resources
+C:\Users\dovan\OneDrive\Máy tính\CAFE-Master\qqqqqqqq\obj\Release\qqqqqqqq.xemcong.resources
+C:\Users\dovan\OneDrive\Máy tính\CAFE-Master\qqqqqqqq\obj\Release\qqqqqqqq.pagenhanVien.resources
+C:\Users\dovan\OneDrive\Máy tính\CAFE-Master\qqqqqqqq\obj\Release\qqqqqqqq.page_hethong.resources
+C:\Users\dovan\OneDrive\Máy tính\CAFE-Master\qqqqqqqq\obj\Release\qqqqqqqq.page_phache.resources
+C:\Users\dovan\OneDrive\Máy tính\CAFE-Master\qqqqqqqq\obj\Release\qqqqqqqq.page_Trangchu.resources
+C:\Users\dovan\OneDrive\Máy tính\CAFE-Master\qqqqqqqq\obj\Release\qqqqqqqq.page_Thongke.resources
+C:\Users\dovan\OneDrive\Máy tính\CAFE-Master\qqqqqqqq\obj\Release\qqqqqqqq.page_thucdon.resources
+C:\Users\dovan\OneDrive\Máy tính\CAFE-Master\qqqqqqqq\obj\Release\qqqqqqqq.Properties.Resources.resources
+C:\Users\dovan\OneDrive\Máy tính\CAFE-Master\qqqqqqqq\obj\Release\qqqqqqqq.suaban.resources
+C:\Users\dovan\OneDrive\Máy tính\CAFE-Master\qqqqqqqq\obj\Release\qqqqqqqq.suahoadon.resources
+C:\Users\dovan\OneDrive\Máy tính\CAFE-Master\qqqqqqqq\obj\Release\qqqqqqqq.suanhanvien.resources
+C:\Users\dovan\OneDrive\Máy tính\CAFE-Master\qqqqqqqq\obj\Release\qqqqqqqq.themban.resources
+C:\Users\dovan\OneDrive\Máy tính\CAFE-Master\qqqqqqqq\obj\Release\qqqqqqqq.themloaiTD.resources
+C:\Users\dovan\OneDrive\Máy tính\CAFE-Master\qqqqqqqq\obj\Release\qqqqqqqq.themnhanvien.resources
+C:\Users\dovan\OneDrive\Máy tính\CAFE-Master\qqqqqqqq\obj\Release\qqqqqqqq.themthucdon.resources
+C:\Users\dovan\OneDrive\Máy tính\CAFE-Master\qqqqqqqq\obj\Release\qqqqqqqq.csproj.GenerateResource.Cache
+C:\Users\dovan\OneDrive\Máy tính\CAFE-Master\qqqqqqqq\obj\Release\qqqqqqqq.exe.licenses
+C:\Users\dovan\OneDrive\Máy tính\CAFE-Master\qqqqqqqq\obj\Release\RdlCompile.cache
+C:\Users\dovan\OneDrive\Máy tính\CAFE-Master\qqqqqqqq\obj\Release\RdlCompile.compiled
+C:\Users\dovan\OneDrive\Máy tính\CAFE-Master\qqqqqqqq\obj\Release\qqqqqqqq.exe
+C:\Users\dovan\OneDrive\Máy tính\CAFE-Master\qqqqqqqq\obj\Release\qqqqqqqq.pdb
+F:\ZALO\(Copy of) CAFE-Master\CAFE-Master\qqqqqqqq\bin\Release\qqqqqqqq.exe.config
+F:\ZALO\(Copy of) CAFE-Master\CAFE-Master\qqqqqqqq\obj\Release\qqqqqqqq.exe
+F:\ZALO\(Copy of) CAFE-Master\CAFE-Master\qqqqqqqq\obj\Release\qqqqqqqq.pdb

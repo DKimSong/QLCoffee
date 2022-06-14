@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2037
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "qqqqqqqq", "qqqqqqqq\qqqqqqqq.csproj", "{B56DA8FF-42B6-424E-BC4D-F56235612158}"
+EndProject
+Project("{840C416C-B8F3-42BC-B0DD-F6BB14C9F8CB}") = "CafeGardenista", "CafeGardenista\CafeGardenista.aiproj", "{E2ADD963-78C6-4F94-A0AD-473A6EE41D22}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		DefaultBuild|Any CPU = DefaultBuild|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B56DA8FF-42B6-424E-BC4D-F56235612158}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B56DA8FF-42B6-424E-BC4D-F56235612158}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B56DA8FF-42B6-424E-BC4D-F56235612158}.DefaultBuild|Any CPU.ActiveCfg = Debug|Any CPU
+		{B56DA8FF-42B6-424E-BC4D-F56235612158}.DefaultBuild|Any CPU.Build.0 = Debug|Any CPU
+		{B56DA8FF-42B6-424E-BC4D-F56235612158}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B56DA8FF-42B6-424E-BC4D-F56235612158}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E2ADD963-78C6-4F94-A0AD-473A6EE41D22}.Debug|Any CPU.ActiveCfg = DefaultBuild
+		{E2ADD963-78C6-4F94-A0AD-473A6EE41D22}.Debug|Any CPU.Build.0 = DefaultBuild
+		{E2ADD963-78C6-4F94-A0AD-473A6EE41D22}.DefaultBuild|Any CPU.ActiveCfg = DefaultBuild
+		{E2ADD963-78C6-4F94-A0AD-473A6EE41D22}.DefaultBuild|Any CPU.Build.0 = DefaultBuild
+		{E2ADD963-78C6-4F94-A0AD-473A6EE41D22}.Release|Any CPU.ActiveCfg = DefaultBuild
+		{E2ADD963-78C6-4F94-A0AD-473A6EE41D22}.Release|Any CPU.Build.0 = DefaultBuild
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7618EBA4-1322-40D7-9BB3-66BEF031977A}
+	EndGlobalSection
+EndGlobal
