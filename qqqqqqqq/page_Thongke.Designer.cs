@@ -31,9 +31,9 @@ namespace qqqqqqqq
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            Microsoft.Reporting.WinForms.ReportDataSource reportDataSource8 = new Microsoft.Reporting.WinForms.ReportDataSource();
-            Microsoft.Reporting.WinForms.ReportDataSource reportDataSource9 = new Microsoft.Reporting.WinForms.ReportDataSource();
-            Microsoft.Reporting.WinForms.ReportDataSource reportDataSource7 = new Microsoft.Reporting.WinForms.ReportDataSource();
+            Microsoft.Reporting.WinForms.ReportDataSource reportDataSource1 = new Microsoft.Reporting.WinForms.ReportDataSource();
+            Microsoft.Reporting.WinForms.ReportDataSource reportDataSource2 = new Microsoft.Reporting.WinForms.ReportDataSource();
+            Microsoft.Reporting.WinForms.ReportDataSource reportDataSource3 = new Microsoft.Reporting.WinForms.ReportDataSource();
             this.pr_hoadonngayBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this._CAFE_netDataSet = new qqqqqqqq._CAFE_netDataSet();
             this.pr_doanhthuHangBindingSource = new System.Windows.Forms.BindingSource(this.components);
@@ -95,8 +95,9 @@ namespace qqqqqqqq
             this.panel1.Controls.Add(this.tabPane1);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel1.Location = new System.Drawing.Point(0, 0);
+            this.panel1.Margin = new System.Windows.Forms.Padding(4);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(652, 411);
+            this.panel1.Size = new System.Drawing.Size(869, 506);
             this.panel1.TabIndex = 0;
             // 
             // tabPane1
@@ -106,14 +107,15 @@ namespace qqqqqqqq
             this.tabPane1.Controls.Add(this.tabNavigationPage3);
             this.tabPane1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tabPane1.Location = new System.Drawing.Point(0, 0);
+            this.tabPane1.Margin = new System.Windows.Forms.Padding(4);
             this.tabPane1.Name = "tabPane1";
             this.tabPane1.Pages.AddRange(new DevExpress.XtraBars.Navigation.NavigationPageBase[] {
             this.tabNavigationPage1,
             this.tabNavigationPage2,
             this.tabNavigationPage3});
-            this.tabPane1.RegularSize = new System.Drawing.Size(652, 411);
+            this.tabPane1.RegularSize = new System.Drawing.Size(869, 506);
             this.tabPane1.SelectedPage = this.tabNavigationPage2;
-            this.tabPane1.Size = new System.Drawing.Size(652, 411);
+            this.tabPane1.Size = new System.Drawing.Size(869, 506);
             this.tabPane1.TabIndex = 0;
             this.tabPane1.Text = "tabPane1";
             // 
@@ -124,8 +126,9 @@ namespace qqqqqqqq
             this.tabNavigationPage1.Controls.Add(this.btnxem);
             this.tabNavigationPage1.Controls.Add(this.dateTimePicker1);
             this.tabNavigationPage1.Controls.Add(this.reportViewer1);
+            this.tabNavigationPage1.Margin = new System.Windows.Forms.Padding(4);
             this.tabNavigationPage1.Name = "tabNavigationPage1";
-            this.tabNavigationPage1.Size = new System.Drawing.Size(650, 382);
+            this.tabNavigationPage1.Size = new System.Drawing.Size(867, 469);
             // 
             // btnxem
             // 
@@ -149,14 +152,14 @@ namespace qqqqqqqq
             this.btnxem.IconVisible = false;
             this.btnxem.IconZoom = 30D;
             this.btnxem.IsTab = false;
-            this.btnxem.Location = new System.Drawing.Point(215, 21);
-            this.btnxem.Margin = new System.Windows.Forms.Padding(5, 3, 5, 3);
+            this.btnxem.Location = new System.Drawing.Point(287, 26);
+            this.btnxem.Margin = new System.Windows.Forms.Padding(7, 4, 7, 4);
             this.btnxem.Name = "btnxem";
             this.btnxem.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
             this.btnxem.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
             this.btnxem.OnHoverTextColor = System.Drawing.Color.White;
             this.btnxem.selected = false;
-            this.btnxem.Size = new System.Drawing.Size(75, 21);
+            this.btnxem.Size = new System.Drawing.Size(100, 26);
             this.btnxem.TabIndex = 18;
             this.btnxem.Text = "        Xem";
             this.btnxem.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -170,24 +173,26 @@ namespace qqqqqqqq
             this.dateTimePicker1.CalendarFont = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.dateTimePicker1.CustomFormat = "dd/MM/yyyy";
             this.dateTimePicker1.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
-            this.dateTimePicker1.Location = new System.Drawing.Point(12, 21);
+            this.dateTimePicker1.Location = new System.Drawing.Point(16, 26);
+            this.dateTimePicker1.Margin = new System.Windows.Forms.Padding(4);
             this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(181, 20);
+            this.dateTimePicker1.Size = new System.Drawing.Size(240, 22);
             this.dateTimePicker1.TabIndex = 4;
-            this.dateTimePicker1.Value = new System.DateTime(2018, 6, 11, 0, 0, 0, 0);
+            this.dateTimePicker1.Value = new System.DateTime(2022, 6, 13, 0, 0, 0, 0);
             // 
             // reportViewer1
             // 
             this.reportViewer1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            reportDataSource8.Name = "DataSet1";
-            reportDataSource8.Value = this.pr_hoadonngayBindingSource;
-            this.reportViewer1.LocalReport.DataSources.Add(reportDataSource8);
+            reportDataSource1.Name = "DataSet1";
+            reportDataSource1.Value = this.pr_hoadonngayBindingSource;
+            this.reportViewer1.LocalReport.DataSources.Add(reportDataSource1);
             this.reportViewer1.LocalReport.ReportEmbeddedResource = "qqqqqqqq.Report2.rdlc";
-            this.reportViewer1.Location = new System.Drawing.Point(0, 48);
+            this.reportViewer1.Location = new System.Drawing.Point(0, 59);
+            this.reportViewer1.Margin = new System.Windows.Forms.Padding(4);
             this.reportViewer1.Name = "reportViewer1";
-            this.reportViewer1.Size = new System.Drawing.Size(651, 334);
+            this.reportViewer1.Size = new System.Drawing.Size(867, 410);
             this.reportViewer1.TabIndex = 0;
             // 
             // tabNavigationPage2
@@ -199,16 +204,18 @@ namespace qqqqqqqq
             this.tabNavigationPage2.Controls.Add(this.reportViewer2);
             this.tabNavigationPage2.Controls.Add(this.bunifuFlatButton1);
             this.tabNavigationPage2.Controls.Add(this.dateTimePicker2);
+            this.tabNavigationPage2.Margin = new System.Windows.Forms.Padding(4);
             this.tabNavigationPage2.Name = "tabNavigationPage2";
-            this.tabNavigationPage2.Size = new System.Drawing.Size(650, 382);
+            this.tabNavigationPage2.Size = new System.Drawing.Size(867, 469);
             this.tabNavigationPage2.Paint += new System.Windows.Forms.PaintEventHandler(this.tabNavigationPage2_Paint);
             // 
             // radioButton2
             // 
             this.radioButton2.AutoSize = true;
-            this.radioButton2.Location = new System.Drawing.Point(82, 43);
+            this.radioButton2.Location = new System.Drawing.Point(109, 53);
+            this.radioButton2.Margin = new System.Windows.Forms.Padding(4);
             this.radioButton2.Name = "radioButton2";
-            this.radioButton2.Size = new System.Drawing.Size(56, 17);
+            this.radioButton2.Size = new System.Drawing.Size(70, 21);
             this.radioButton2.TabIndex = 23;
             this.radioButton2.Text = "Tháng";
             this.radioButton2.UseVisualStyleBackColor = true;
@@ -217,9 +224,10 @@ namespace qqqqqqqq
             // 
             this.radioButton1.AutoSize = true;
             this.radioButton1.Checked = true;
-            this.radioButton1.Location = new System.Drawing.Point(3, 43);
+            this.radioButton1.Location = new System.Drawing.Point(4, 53);
+            this.radioButton1.Margin = new System.Windows.Forms.Padding(4);
             this.radioButton1.Name = "radioButton1";
-            this.radioButton1.Size = new System.Drawing.Size(50, 17);
+            this.radioButton1.Size = new System.Drawing.Size(62, 21);
             this.radioButton1.TabIndex = 22;
             this.radioButton1.TabStop = true;
             this.radioButton1.Text = "Ngày";
@@ -230,13 +238,14 @@ namespace qqqqqqqq
             this.reportViewer2.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            reportDataSource9.Name = "DataSet1";
-            reportDataSource9.Value = this.pr_doanhthuHangBindingSource;
-            this.reportViewer2.LocalReport.DataSources.Add(reportDataSource9);
+            reportDataSource2.Name = "DataSet1";
+            reportDataSource2.Value = this.pr_doanhthuHangBindingSource;
+            this.reportViewer2.LocalReport.DataSources.Add(reportDataSource2);
             this.reportViewer2.LocalReport.ReportEmbeddedResource = "qqqqqqqq.Report4.rdlc";
-            this.reportViewer2.Location = new System.Drawing.Point(3, 78);
+            this.reportViewer2.Location = new System.Drawing.Point(4, 96);
+            this.reportViewer2.Margin = new System.Windows.Forms.Padding(4);
             this.reportViewer2.Name = "reportViewer2";
-            this.reportViewer2.Size = new System.Drawing.Size(647, 304);
+            this.reportViewer2.Size = new System.Drawing.Size(862, 383);
             this.reportViewer2.TabIndex = 21;
             // 
             // bunifuFlatButton1
@@ -261,14 +270,14 @@ namespace qqqqqqqq
             this.bunifuFlatButton1.IconVisible = false;
             this.bunifuFlatButton1.IconZoom = 30D;
             this.bunifuFlatButton1.IsTab = false;
-            this.bunifuFlatButton1.Location = new System.Drawing.Point(206, 17);
-            this.bunifuFlatButton1.Margin = new System.Windows.Forms.Padding(5, 3, 5, 3);
+            this.bunifuFlatButton1.Location = new System.Drawing.Point(275, 21);
+            this.bunifuFlatButton1.Margin = new System.Windows.Forms.Padding(7, 4, 7, 4);
             this.bunifuFlatButton1.Name = "bunifuFlatButton1";
             this.bunifuFlatButton1.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
             this.bunifuFlatButton1.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
             this.bunifuFlatButton1.OnHoverTextColor = System.Drawing.Color.White;
             this.bunifuFlatButton1.selected = false;
-            this.bunifuFlatButton1.Size = new System.Drawing.Size(75, 21);
+            this.bunifuFlatButton1.Size = new System.Drawing.Size(100, 26);
             this.bunifuFlatButton1.TabIndex = 20;
             this.bunifuFlatButton1.Text = "        Xem";
             this.bunifuFlatButton1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -282,11 +291,13 @@ namespace qqqqqqqq
             this.dateTimePicker2.CalendarFont = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.dateTimePicker2.CustomFormat = "dd/MM/yyyy";
             this.dateTimePicker2.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
-            this.dateTimePicker2.Location = new System.Drawing.Point(3, 17);
+            this.dateTimePicker2.Location = new System.Drawing.Point(4, 21);
+            this.dateTimePicker2.Margin = new System.Windows.Forms.Padding(4);
             this.dateTimePicker2.Name = "dateTimePicker2";
-            this.dateTimePicker2.Size = new System.Drawing.Size(181, 20);
+            this.dateTimePicker2.Size = new System.Drawing.Size(240, 22);
             this.dateTimePicker2.TabIndex = 19;
-            this.dateTimePicker2.Value = new System.DateTime(2018, 6, 11, 0, 0, 0, 0);
+            this.dateTimePicker2.Value = new System.DateTime(2022, 6, 13, 0, 0, 0, 0);
+            this.dateTimePicker2.ValueChanged += new System.EventHandler(this.dateTimePicker2_ValueChanged);
             // 
             // tabNavigationPage3
             // 
@@ -295,21 +306,23 @@ namespace qqqqqqqq
             this.tabNavigationPage3.Controls.Add(this.reportViewer3);
             this.tabNavigationPage3.Controls.Add(this.bunifuFlatButton2);
             this.tabNavigationPage3.Controls.Add(this.dateTimePicker3);
+            this.tabNavigationPage3.Margin = new System.Windows.Forms.Padding(4);
             this.tabNavigationPage3.Name = "tabNavigationPage3";
-            this.tabNavigationPage3.Size = new System.Drawing.Size(650, 382);
+            this.tabNavigationPage3.Size = new System.Drawing.Size(867, 469);
             // 
             // reportViewer3
             // 
             this.reportViewer3.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            reportDataSource7.Name = "DataSet1";
-            reportDataSource7.Value = this.pr_chartBindingSource;
-            this.reportViewer3.LocalReport.DataSources.Add(reportDataSource7);
+            reportDataSource3.Name = "DataSet1";
+            reportDataSource3.Value = this.pr_chartBindingSource;
+            this.reportViewer3.LocalReport.DataSources.Add(reportDataSource3);
             this.reportViewer3.LocalReport.ReportEmbeddedResource = "qqqqqqqq.Report7.rdlc";
-            this.reportViewer3.Location = new System.Drawing.Point(3, 41);
+            this.reportViewer3.Location = new System.Drawing.Point(4, 50);
+            this.reportViewer3.Margin = new System.Windows.Forms.Padding(4);
             this.reportViewer3.Name = "reportViewer3";
-            this.reportViewer3.Size = new System.Drawing.Size(647, 341);
+            this.reportViewer3.Size = new System.Drawing.Size(862, 418);
             this.reportViewer3.TabIndex = 23;
             // 
             // bunifuFlatButton2
@@ -334,14 +347,14 @@ namespace qqqqqqqq
             this.bunifuFlatButton2.IconVisible = false;
             this.bunifuFlatButton2.IconZoom = 30D;
             this.bunifuFlatButton2.IsTab = false;
-            this.bunifuFlatButton2.Location = new System.Drawing.Point(218, 14);
-            this.bunifuFlatButton2.Margin = new System.Windows.Forms.Padding(5, 3, 5, 3);
+            this.bunifuFlatButton2.Location = new System.Drawing.Point(291, 17);
+            this.bunifuFlatButton2.Margin = new System.Windows.Forms.Padding(7, 4, 7, 4);
             this.bunifuFlatButton2.Name = "bunifuFlatButton2";
             this.bunifuFlatButton2.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
             this.bunifuFlatButton2.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
             this.bunifuFlatButton2.OnHoverTextColor = System.Drawing.Color.White;
             this.bunifuFlatButton2.selected = false;
-            this.bunifuFlatButton2.Size = new System.Drawing.Size(75, 21);
+            this.bunifuFlatButton2.Size = new System.Drawing.Size(100, 26);
             this.bunifuFlatButton2.TabIndex = 22;
             this.bunifuFlatButton2.Text = "        Xem";
             this.bunifuFlatButton2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -355,11 +368,12 @@ namespace qqqqqqqq
             this.dateTimePicker3.CalendarFont = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.dateTimePicker3.CustomFormat = "dd/MM/yyyy";
             this.dateTimePicker3.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
-            this.dateTimePicker3.Location = new System.Drawing.Point(15, 14);
+            this.dateTimePicker3.Location = new System.Drawing.Point(20, 17);
+            this.dateTimePicker3.Margin = new System.Windows.Forms.Padding(4);
             this.dateTimePicker3.Name = "dateTimePicker3";
-            this.dateTimePicker3.Size = new System.Drawing.Size(181, 20);
+            this.dateTimePicker3.Size = new System.Drawing.Size(240, 22);
             this.dateTimePicker3.TabIndex = 21;
-            this.dateTimePicker3.Value = new System.DateTime(2018, 6, 11, 0, 0, 0, 0);
+            this.dateTimePicker3.Value = new System.DateTime(2022, 6, 13, 0, 0, 0, 0);
             // 
             // pr_hoadonngayTableAdapter
             // 
@@ -375,11 +389,12 @@ namespace qqqqqqqq
             // 
             // page_Thongke
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.Controls.Add(this.panel1);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "page_Thongke";
-            this.Size = new System.Drawing.Size(652, 411);
+            this.Size = new System.Drawing.Size(869, 506);
             ((System.ComponentModel.ISupportInitialize)(this.pr_hoadonngayBindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this._CAFE_netDataSet)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pr_doanhthuHangBindingSource)).EndInit();

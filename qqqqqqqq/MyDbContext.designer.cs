@@ -30,16 +30,16 @@ namespace qqqqqqqq
 		
     #region Extensibility Method Definitions
     partial void OnCreated();
-    partial void InsertNHANVIEN(NHANVIEN instance);
-    partial void UpdateNHANVIEN(NHANVIEN instance);
-    partial void DeleteNHANVIEN(NHANVIEN instance);
     partial void InsertTHUCDON(THUCDON instance);
     partial void UpdateTHUCDON(THUCDON instance);
     partial void DeleteTHUCDON(THUCDON instance);
+    partial void InsertNHANVIEN(NHANVIEN instance);
+    partial void UpdateNHANVIEN(NHANVIEN instance);
+    partial void DeleteNHANVIEN(NHANVIEN instance);
     #endregion
 		
 		public MyDbContextDataContext() : 
-				base(global::qqqqqqqq.Properties.Settings.Default.CAFE_netConnectionString1, mappingSource)
+				base(global::qqqqqqqq.Properties.Settings.Default.CAFE_netConnectionString2, mappingSource)
 		{
 			OnCreated();
 		}
@@ -68,6 +68,14 @@ namespace qqqqqqqq
 			OnCreated();
 		}
 		
+		public System.Data.Linq.Table<THUCDON> THUCDONs
+		{
+			get
+			{
+				return this.GetTable<THUCDON>();
+			}
+		}
+		
 		public System.Data.Linq.Table<NHANVIEN> NHANVIENs
 		{
 			get
@@ -75,12 +83,186 @@ namespace qqqqqqqq
 				return this.GetTable<NHANVIEN>();
 			}
 		}
+	}
+	
+	[global::System.Data.Linq.Mapping.TableAttribute(Name="dbo.THUCDON")]
+	public partial class THUCDON : INotifyPropertyChanging, INotifyPropertyChanged
+	{
 		
-		public System.Data.Linq.Table<THUCDON> THUCDONs
+		private static PropertyChangingEventArgs emptyChangingEventArgs = new PropertyChangingEventArgs(String.Empty);
+		
+		private int _MATD;
+		
+		private int _MALOAITD;
+		
+		private string _TENTD;
+		
+		private System.Nullable<int> _GIA;
+		
+		private System.Data.Linq.Binary _anh;
+		
+		private System.Nullable<bool> _TRANG_THAI;
+		
+    #region Extensibility Method Definitions
+    partial void OnLoaded();
+    partial void OnValidate(System.Data.Linq.ChangeAction action);
+    partial void OnCreated();
+    partial void OnMATDChanging(int value);
+    partial void OnMATDChanged();
+    partial void OnMALOAITDChanging(int value);
+    partial void OnMALOAITDChanged();
+    partial void OnTENTDChanging(string value);
+    partial void OnTENTDChanged();
+    partial void OnGIAChanging(System.Nullable<int> value);
+    partial void OnGIAChanged();
+    partial void OnanhChanging(System.Data.Linq.Binary value);
+    partial void OnanhChanged();
+    partial void OnTRANG_THAIChanging(System.Nullable<bool> value);
+    partial void OnTRANG_THAIChanged();
+    #endregion
+		
+		public THUCDON()
+		{
+			OnCreated();
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_MATD", AutoSync=AutoSync.OnInsert, DbType="Int NOT NULL IDENTITY", IsPrimaryKey=true, IsDbGenerated=true)]
+		public int MATD
 		{
 			get
 			{
-				return this.GetTable<THUCDON>();
+				return this._MATD;
+			}
+			set
+			{
+				if ((this._MATD != value))
+				{
+					this.OnMATDChanging(value);
+					this.SendPropertyChanging();
+					this._MATD = value;
+					this.SendPropertyChanged("MATD");
+					this.OnMATDChanged();
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_MALOAITD", DbType="Int NOT NULL")]
+		public int MALOAITD
+		{
+			get
+			{
+				return this._MALOAITD;
+			}
+			set
+			{
+				if ((this._MALOAITD != value))
+				{
+					this.OnMALOAITDChanging(value);
+					this.SendPropertyChanging();
+					this._MALOAITD = value;
+					this.SendPropertyChanged("MALOAITD");
+					this.OnMALOAITDChanged();
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_TENTD", DbType="NVarChar(50)")]
+		public string TENTD
+		{
+			get
+			{
+				return this._TENTD;
+			}
+			set
+			{
+				if ((this._TENTD != value))
+				{
+					this.OnTENTDChanging(value);
+					this.SendPropertyChanging();
+					this._TENTD = value;
+					this.SendPropertyChanged("TENTD");
+					this.OnTENTDChanged();
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_GIA", DbType="Int")]
+		public System.Nullable<int> GIA
+		{
+			get
+			{
+				return this._GIA;
+			}
+			set
+			{
+				if ((this._GIA != value))
+				{
+					this.OnGIAChanging(value);
+					this.SendPropertyChanging();
+					this._GIA = value;
+					this.SendPropertyChanged("GIA");
+					this.OnGIAChanged();
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_anh", DbType="Image", UpdateCheck=UpdateCheck.Never)]
+		public System.Data.Linq.Binary anh
+		{
+			get
+			{
+				return this._anh;
+			}
+			set
+			{
+				if ((this._anh != value))
+				{
+					this.OnanhChanging(value);
+					this.SendPropertyChanging();
+					this._anh = value;
+					this.SendPropertyChanged("anh");
+					this.OnanhChanged();
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_TRANG_THAI", DbType="Bit")]
+		public System.Nullable<bool> TRANG_THAI
+		{
+			get
+			{
+				return this._TRANG_THAI;
+			}
+			set
+			{
+				if ((this._TRANG_THAI != value))
+				{
+					this.OnTRANG_THAIChanging(value);
+					this.SendPropertyChanging();
+					this._TRANG_THAI = value;
+					this.SendPropertyChanged("TRANG_THAI");
+					this.OnTRANG_THAIChanged();
+				}
+			}
+		}
+		
+		public event PropertyChangingEventHandler PropertyChanging;
+		
+		public event PropertyChangedEventHandler PropertyChanged;
+		
+		protected virtual void SendPropertyChanging()
+		{
+			if ((this.PropertyChanging != null))
+			{
+				this.PropertyChanging(this, emptyChangingEventArgs);
+			}
+		}
+		
+		protected virtual void SendPropertyChanged(String propertyName)
+		{
+			if ((this.PropertyChanged != null))
+			{
+				this.PropertyChanged(this, new PropertyChangedEventArgs(propertyName));
 			}
 		}
 	}
@@ -314,188 +496,6 @@ namespace qqqqqqqq
 					this._ANH = value;
 					this.SendPropertyChanged("ANH");
 					this.OnANHChanged();
-				}
-			}
-		}
-		
-		public event PropertyChangingEventHandler PropertyChanging;
-		
-		public event PropertyChangedEventHandler PropertyChanged;
-		
-		protected virtual void SendPropertyChanging()
-		{
-			if ((this.PropertyChanging != null))
-			{
-				this.PropertyChanging(this, emptyChangingEventArgs);
-			}
-		}
-		
-		protected virtual void SendPropertyChanged(String propertyName)
-		{
-			if ((this.PropertyChanged != null))
-			{
-				this.PropertyChanged(this, new PropertyChangedEventArgs(propertyName));
-			}
-		}
-	}
-	
-	[global::System.Data.Linq.Mapping.TableAttribute(Name="dbo.THUCDON")]
-	public partial class THUCDON : INotifyPropertyChanging, INotifyPropertyChanged
-	{
-		
-		private static PropertyChangingEventArgs emptyChangingEventArgs = new PropertyChangingEventArgs(String.Empty);
-		
-		private int _MATD;
-		
-		private int _MALOAITD;
-		
-		private string _TENTD;
-		
-		private System.Nullable<int> _GIA;
-		
-		private System.Data.Linq.Binary _anh;
-		
-		private System.Nullable<bool> _TRANG_THAI;
-		
-    #region Extensibility Method Definitions
-    partial void OnLoaded();
-    partial void OnValidate(System.Data.Linq.ChangeAction action);
-    partial void OnCreated();
-    partial void OnMATDChanging(int value);
-    partial void OnMATDChanged();
-    partial void OnMALOAITDChanging(int value);
-    partial void OnMALOAITDChanged();
-    partial void OnTENTDChanging(string value);
-    partial void OnTENTDChanged();
-    partial void OnGIAChanging(System.Nullable<int> value);
-    partial void OnGIAChanged();
-    partial void OnanhChanging(System.Data.Linq.Binary value);
-    partial void OnanhChanged();
-    partial void OnTRANG_THAIChanging(System.Nullable<bool> value);
-    partial void OnTRANG_THAIChanged();
-    #endregion
-		
-		public THUCDON()
-		{
-			OnCreated();
-		}
-		
-		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_MATD", AutoSync=AutoSync.OnInsert, DbType="Int NOT NULL IDENTITY", IsPrimaryKey=true, IsDbGenerated=true)]
-		public int MATD
-		{
-			get
-			{
-				return this._MATD;
-			}
-			set
-			{
-				if ((this._MATD != value))
-				{
-					this.OnMATDChanging(value);
-					this.SendPropertyChanging();
-					this._MATD = value;
-					this.SendPropertyChanged("MATD");
-					this.OnMATDChanged();
-				}
-			}
-		}
-		
-		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_MALOAITD", DbType="Int NOT NULL")]
-		public int MALOAITD
-		{
-			get
-			{
-				return this._MALOAITD;
-			}
-			set
-			{
-				if ((this._MALOAITD != value))
-				{
-					this.OnMALOAITDChanging(value);
-					this.SendPropertyChanging();
-					this._MALOAITD = value;
-					this.SendPropertyChanged("MALOAITD");
-					this.OnMALOAITDChanged();
-				}
-			}
-		}
-		
-		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_TENTD", DbType="NVarChar(50)")]
-		public string TENTD
-		{
-			get
-			{
-				return this._TENTD;
-			}
-			set
-			{
-				if ((this._TENTD != value))
-				{
-					this.OnTENTDChanging(value);
-					this.SendPropertyChanging();
-					this._TENTD = value;
-					this.SendPropertyChanged("TENTD");
-					this.OnTENTDChanged();
-				}
-			}
-		}
-		
-		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_GIA", DbType="Int")]
-		public System.Nullable<int> GIA
-		{
-			get
-			{
-				return this._GIA;
-			}
-			set
-			{
-				if ((this._GIA != value))
-				{
-					this.OnGIAChanging(value);
-					this.SendPropertyChanging();
-					this._GIA = value;
-					this.SendPropertyChanged("GIA");
-					this.OnGIAChanged();
-				}
-			}
-		}
-		
-		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_anh", DbType="Image", UpdateCheck=UpdateCheck.Never)]
-		public System.Data.Linq.Binary anh
-		{
-			get
-			{
-				return this._anh;
-			}
-			set
-			{
-				if ((this._anh != value))
-				{
-					this.OnanhChanging(value);
-					this.SendPropertyChanging();
-					this._anh = value;
-					this.SendPropertyChanged("anh");
-					this.OnanhChanged();
-				}
-			}
-		}
-		
-		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_TRANG_THAI", DbType="Bit")]
-		public System.Nullable<bool> TRANG_THAI
-		{
-			get
-			{
-				return this._TRANG_THAI;
-			}
-			set
-			{
-				if ((this._TRANG_THAI != value))
-				{
-					this.OnTRANG_THAIChanging(value);
-					this.SendPropertyChanging();
-					this._TRANG_THAI = value;
-					this.SendPropertyChanged("TRANG_THAI");
-					this.OnTRANG_THAIChanged();
 				}
 			}
 		}

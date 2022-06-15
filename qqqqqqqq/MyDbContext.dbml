@@ -1,5 +1,15 @@
 ﻿<?xml version="1.0" encoding="utf-8"?><Database Name="CAFE.net" Class="MyDbContextDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
-  <Connection Mode="AppSettings" ConnectionString="Data Source=DESKTOP-T1V9H4L\SQLEXPRESS;Initial Catalog=CAFE.net;Integrated Security=True" SettingsObjectName="qqqqqqqq.Properties.Settings" SettingsPropertyName="CAFE_netConnectionString1" Provider="System.Data.SqlClient" />
+  <Connection Mode="AppSettings" ConnectionString="Data Source=DESKTOP-AVAEUFC;Initial Catalog=CAFE.net;Integrated Security=True" SettingsObjectName="qqqqqqqq.Properties.Settings" SettingsPropertyName="CAFE_netConnectionString2" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.THUCDON" Member="THUCDONs">
+    <Type Name="THUCDON">
+      <Column Name="MATD" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="MALOAITD" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="TENTD" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="GIA" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="anh" Type="System.Data.Linq.Binary" DbType="Image" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="TRANG_THAI" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+    </Type>
+  </Table>
   <Table Name="dbo.NHANVIEN" Member="NHANVIENs">
     <Type Name="NHANVIEN">
       <Column Name="CMND" Type="System.String" DbType="NVarChar(20) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
@@ -11,16 +21,6 @@
       <Column Name="MACHUCVU" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
       <Column Name="TRANGTHAI" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
       <Column Name="ANH" Type="System.Data.Linq.Binary" DbType="Image" CanBeNull="true" UpdateCheck="Never" />
-    </Type>
-  </Table>
-  <Table Name="dbo.THUCDON" Member="THUCDONs">
-    <Type Name="THUCDON">
-      <Column Name="MATD" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
-      <Column Name="MALOAITD" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
-      <Column Name="TENTD" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
-      <Column Name="GIA" Type="System.Int32" DbType="Int" CanBeNull="true" />
-      <Column Name="anh" Type="System.Data.Linq.Binary" DbType="Image" CanBeNull="true" UpdateCheck="Never" />
-      <Column Name="TRANG_THAI" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
     </Type>
   </Table>
 </Database>

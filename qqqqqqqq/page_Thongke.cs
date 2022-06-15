@@ -67,6 +67,11 @@ namespace qqqqqqqq
             this.reportViewer3.RefreshReport();
         }
 
+        private void dateTimePicker2_ValueChanged(object sender, EventArgs e)
+        {
+
+        }
+
 
     }
 }

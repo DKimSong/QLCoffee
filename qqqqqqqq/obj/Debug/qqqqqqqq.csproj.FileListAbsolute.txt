@@ -88,3 +88,4 @@ F:\ZALO\(Copy of) CAFE-Master\CAFE-Master\qqqqqqqq\bin\Debug\qqqqqqqq.pdb
 F:\ZALO\(Copy of) CAFE-Master\CAFE-Master\qqqqqqqq\bin\Debug\MetroFramework.Design.dll
 F:\ZALO\(Copy of) CAFE-Master\CAFE-Master\qqqqqqqq\bin\Debug\MetroFramework.dll
 F:\ZALO\(Copy of) CAFE-Master\CAFE-Master\qqqqqqqq\bin\Debug\MetroFramework.Fonts.dll
+F:\ZALO\(Copy of) CAFE-Master\CAFE-Master\qqqqqqqq\obj\Debug\qqqqqqqq.csprojResolveAssemblyReference.cache
